@@ -1,0 +1,110 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+    background-image: url(./asset/design1_image2.jpg);
+    background-size:90%;
+    background-repeat: no-repeat;
+    height: 410px;
+    background-position-y:20%;
+    position: relative;
+    left: 5%;
+}
+
+header>h1{
+    font-style: italic;
+    font-size: 50pt;
+    position: relative;
+    bottom: 20%;
+    margin-top: 5%;
+}
+
+header>h2{
+    margin-top: 20%;
+    margin-right: 10%;
+    text-align: center;
+    outline-style:inset;
+    outline-width: 2px;
+    color: black;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 20pt;
+}
+
+header>figure{
+    position: relative;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.navegacion{
+    position:relative;
+    bottom: 745px;
+    margin-left: 67%;
+}
+
+.vinculo:hover{
+    background-color: rgb(126, 183, 64);
+}
+
+.vinculo{
+    display: inline-block;
+    background-color: rgb(98, 98, 220);
+    width: 100px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 2%;
+    outline-style: solid;
+    outline-color: black;
+    box-shadow: 5px 7px rgb(60, 59, 59);
+}
+
+main{
+    position:relative;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+.articulo{
+    padding-top: 1%;
+    display:block;
+    height: 80px;
+}
+
+.infoAbout{
+    display:block;
+    margin-top: 40px;
+    height:fit-content;
+    padding-right: 20%;
+}
+
+.section{
+    margin-top: 9%;
+}
+
+
+.h3, .parrafo, h2 {
+    margin: 0%;
+}
+
+.h3{
+    font-style: italic;
+    font-size: 16pt;
+}
+
+.parrafo{
+    text-indent: 30px;
+}
+
+.Pcontact{
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+p{
+    font-size: 15pt;
+}

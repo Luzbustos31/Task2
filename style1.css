@@ -1,0 +1,93 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+    background-image: url(./asset/design1_image1.jpg);
+    background-size:90%;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position-y:20%;
+    position: relative;
+    left: 5%;
+}
+
+header>h1{ 
+    padding-left: 50px;
+    font-size: 50pt; 
+}
+
+main{
+    position:relative;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+header>figure{
+    position:relative;
+    bottom: 170px;
+    margin-left: 65%;
+}
+
+header>h2{
+    margin-top: 19%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 1%;
+    font-size: 20pt;
+}
+
+.navegacion{
+    margin-left: 5%;
+    position:relative;
+    bottom: 200px;
+}
+
+.vinculo{
+    display:block;
+    height: 80px;
+    font-size: 15pt;
+}
+
+.articulo{
+    padding-top: 1%;
+    display:block;
+    height: 80px;
+}
+
+.infoAbout{
+    display:block;
+    margin-top: 40px;
+    height:fit-content;
+    padding-right: 20%;
+}
+
+.section{
+    margin-top: 9%;
+}
+
+
+.h3, .parrafo, h2 {
+    margin: 0%;
+}
+
+.h3{
+    font-style: italic;
+    font-size: 16pt;
+}
+
+.parrafo{
+    text-indent: 20px;
+}
+
+.Pcontact{
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+p{
+    font-size: 15pt;
+}
