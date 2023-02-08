@@ -1,6 +1,7 @@
 *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
+    
 }
 
 body{
@@ -12,6 +13,14 @@ header{
     background-size:100%;
     background-repeat: no-repeat;
 }
+.headerForm{
+    background-image: none;
+}
+
+.title{
+    text-align: center;
+}
+
 
 main>h1{
     margin-bottom: 2%;
@@ -85,11 +94,12 @@ main{
 
 .h3{
     font-style: italic;
-    font-size: 16pt;
+    font-size: 2rem;
 }
 
 .parrafo{
     text-indent: 30px;
+    font-size: 1.3rem ;
 }
 
 .Pcontact{
@@ -103,8 +113,55 @@ main{
     height: 100px;
 }
 
-p, li{
+.mainForm, p, li{
     font-size: 15pt;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 20px;
+    padding: 40px;
+}
+
+.divForm{
+    
+    background-color: rgb(16 16 16 / 66%);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    padding: 40px 15px 15px 15px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+label{
+    
+    text-align: center;
+}
+
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./asset/design1_image1.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+    color: #e1e1e1;
+     
+}
+
+.nombre{
+    
+}
+
+fieldset{
+    
+    border: none;
+    padding: 0;
+    
 }
 
 
@@ -192,3 +249,42 @@ th{
 
 
 
+.input-{
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background: #9ac5d79c;
+    height: 22px;
+    color: white;
+    font-size: 16px;
+}
+
+.inside-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.btn{
+    width: 110px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: #1b386cba;
+    color: white;
+}
+
+.btn:hover{
+    background: white;
+    color:#1b386cba;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
